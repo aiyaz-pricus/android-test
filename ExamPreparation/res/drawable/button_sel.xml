@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/button_shape">
+        <shape  android:shape="rectangle" >
+<corners 
+    android:radius="15dp"
+    />
+    <gradient android:startColor="@color/list_background"
+      android:endColor="#ffffff"
+      android:angle="90"/>
+
+</shape>
+        
+        
+    </item>
+    <item android:drawable="@drawable/button_shape_pressed" android:state_pressed="true">
+      <shape android:shape="rectangle" >
+<corners 
+    android:radius="15dp"
+    />
+    <gradient android:startColor="#ffffff"
+      android:endColor="@color/list_background"
+      android:angle="90"/>
+
+</shape>
+        
+    </item>
+
+</selector>
